@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Formula 1</title>
+  <link rel="stylesheet" href="Proje.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link class="ico" rel="shortcut icon" href="preview.jpg">
+
+</head>
+
+<body background="background.jpg">
+
+
+
+  <div class="col-sm-12">
+    <header style="background-color: white; height: 110px;">
+      <div class="col-sm-4 animation">
+        <img class="logo" src="F1.svg.png">
+      </div>
+      <div class="col-sm-4" style="margin-top: 20px;">
+        <nav>
+          <ul>
+
+            <li><a class="link" href="Proje.html">Anasayfa</a></li>
+            <li><a class="link" href="haber.html">Haberler</a></li>
+            <li><a class="link" href="#puan">Puan Durumu</a></li>
+            <li><a class="link" href="pilotlar.html">Pilotlar</a></li>
+            <li><a class="link" href="iletisim.html">İletişim</a></li>
+
+          </ul>
+        </nav>
+      </div>
+      <div class="col-sm-4"></div>
+    </header>
+
+    <main style="margin-top: 125px;">
+
+      <div class="row" style="margin-top: 10px;">
+        <aside class="gallery col-sm-6">
+
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="w14.jpg" style="width:100%">
+              <div class="text"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+                <center>Mercedes-AMG W14</center>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="red-bull-rb18.jpeg" style="width:100%">
+              <div class="text"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+                <center>RB18</center>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="ferrari_sf_23.jpg" style="width:100%">
+              <div class="text"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+                <center>Ferrari SF-23</center>
+              </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br id="puan">
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+        </aside>
+        <aside class="gallery col-sm-6">
+
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides1 fade">
+              <a href="haber.html#ferrari"><img src="news1.jpg" style="width:100%"></a>
+              <div class="text"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+                <center>Ferrari, Red Bull'dan iki mühendisle anlaştı</center>
+              </div>
+            </div>
+
+            <div class="mySlides1 fade">
+              <a href="haber.html#rb"><img src="sergio-perez.jpg" style="width:100%"></a>
+              <div class="text"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+                <center>Perez: "Berbat bir yarıştı"</center>
+              </div>
+            </div>
+
+            <div class="mySlides1 fade">
+              <a href="haber.html#alonso"><img src="news3.jpg" style="width:100%"></a>
+              <div class="text"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;">
+                <center>Alonso: "Zafere bir adım kaldı"</center>
+              </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide1(1)"></span>
+            <span class="dot" onclick="currentSlide1(2)"></span>
+            <span class="dot" onclick="currentSlide1(3)"></span>
+          </div>
+
+        </aside>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="neon">
+            <center>PİLOTLAR SIRALAMASI</center>
+          </h2>
+          <ul class="f1-podium f1-color--carbonBlack">
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">1</span>
+                <span class="team-color-icon" style="background:#3671C6"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Max</span>
+                  <strong class="f1-podium--surname f1-uppercase">Verstappen</strong>
+                </span>
+                <span class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Red Bull
+                  Racing</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">144 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">2</span>
+                <span class="team-color-icon" style="background:#3671C6"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Sergio</span>
+                  <strong class="f1-podium--surname f1-uppercase">Perez</strong>
+                </span>
+                <span class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Red Bull
+                  Racing</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">105 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">3</span>
+                <span class="team-color-icon" style="background:#358C75"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Fernando</span>
+                  <strong class="f1-podium--surname f1-uppercase">Alonso</strong>
+                </span>
+                <span class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Aston
+                  Martin</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">93 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">4</span>
+                <span class="team-color-icon" style="background:#6CD3BF"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Lewis</span>
+                  <strong class="f1-podium--surname f1-uppercase">Hamilton</strong>
+                </span>
+                <span
+                  class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Mercedes</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">69 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">5</span>
+                <span class="team-color-icon" style="background:#6CD3BF"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">George</span>
+                  <strong class="f1-podium--surname f1-uppercase">Russell</strong>
+                </span>
+                <span
+                  class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Mercedes</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">50 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">6</span>
+                <span class="team-color-icon" style="background:#F91536"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Carlos</span>
+                  <strong class="f1-podium--surname f1-uppercase">Sainz</strong>
+                </span>
+                <span
+                  class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Ferrari</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">48 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">6</span>
+                <span class="team-color-icon" style="background:#F91536"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Charles</span>
+                  <strong class="f1-podium--surname f1-uppercase">Leclerc</strong>
+                </span>
+                <span
+                  class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Ferrari</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">42 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">8</span>
+                <span class="team-color-icon" style="background:#358C75"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Lance</span>
+                  <strong class="f1-podium--surname f1-uppercase">Stroll</strong>
+                </span>
+                <span class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Aston
+                  Martin</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">27 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">9</span>
+                <span class="team-color-icon" style="background:#2293D1"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Esteban</span>
+                  <strong class="f1-podium--surname f1-uppercase">Ocon</strong>
+                </span>
+                <span
+                  class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Alpine</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">21 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">10</span>
+                <span class="team-color-icon" style="background:#2293D1"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <span class="d-none d-md-inline f1-capitalize">Pierre</span>
+                  <strong class="f1-podium--surname f1-uppercase">Gasly</strong>
+                </span>
+                <span
+                  class="d-none d-md-inline f1-podium-subdetail f1-capitalize misc--label f1-color--gray5">Alpine</span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">14 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-sm-6">
+          <h2 class="neon">
+            <center>TAKIMLAR SIRALAMASI</center>
+          </h2>
+          <ul class="f1-podium f1-color--carbonBlack">
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">1</span>
+                <span class="team-color-icon" style="background:#3671C6"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">RED BULL RACING HONDA RBPT</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">249 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">2</span>
+                <span class="team-color-icon" style="background:#358c75"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">ASTON MARTIN ARAMCO MERCEDES</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">120 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">3</span>
+                <span class="team-color-icon" style="background:#6cd3bf"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">MERCEDES</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">119 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">4</span>
+                <span class="team-color-icon" style="background:#f91536"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">FERRARI</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">90 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">5</span>
+                <span class="team-color-icon" style="background:#2293d1"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">ALPINE RENAULT</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">35 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">6</span>
+                <span class="team-color-icon" style="background:#f58020"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">MCLAREN MERCEDES</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">17 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">7</span>
+                <span class="team-color-icon" style="background:#b6babd"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">HAAS FERRARI</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">8 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">8</span>
+                <span class="team-color-icon" style="background:#c92d4b"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">ALFA ROMEO FERRARI</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">6 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">9</span>
+                <span class="team-color-icon" style="background:#5e8faa"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">ALPHATAURI HONDA RBPT</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">2 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+
+            <li class="f1-podium--item ">
+
+              <div class="f1-podium--link f1-bg--white">
+                <span class="f1-podium--rank f1-bold--xs">10</span>
+                <span class="team-color-icon" style="background:#37bedd"></span>
+                <span class="f1-podium--driver f1--xs">
+                  <strong class="f1-podium--surname f1-uppercase">WILLIAMS MERCEDES</strong>
+                </span>
+                <span class="f1-podium-right">
+                  <span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold">1 PTS</span>
+                  <i class="icon icon-chevron-right f1-color--warmRed"></i>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="f1-footer__middle">
+          <div class="container">
+            <div class="row2">
+              <div class="col-12 footer-partners">
+                <div class="row2 footer-partners-container">
+
+                  <div class="col-sm-12">
+                    <ul class="row2" style="list-style-type: none;">
+
+
+                      <li class="Rolex col-sm-2 footerli">
+
+                        <a href="https://www.rolex.com/" target="_blank" title="Rolex" data-analytics-event="click"
+                          data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;Rolex&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 1&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;Rolex&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/rolex.png"
+                            alt="Rolex"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;Rolex&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 1&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="Pirelli col-sm-2 footerli">
+
+                        <a href="http://bit.ly/2IjWDjE" target="_blank" title="Pirelli" data-analytics-event="click"
+                          data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;Pirelli&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 2&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;Pirelli&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/pirelli.png"
+                            alt="Pirelli"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;Pirelli&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 2&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="Aramco col-sm-2 footerli">
+
+                        <a href="https://www.saudiaramco.com/" target="_blank" title="Aramco"
+                          data-analytics-event="click" data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;Aramco&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 3&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;Aramco&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/aramco.png"
+                            alt="Aramco"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;Aramco&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 3&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="DHL col-sm-2 footerli">
+
+                        <a href="https://inmotion.dhl/en/formula-1/?utm_content=DHL-F1&amp;utm_source=f1&amp;utm_medium=website&amp;utm_campaign=DHL-F1"
+                          target="_blank" title="DHL" data-analytics-event="click" data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;DHL&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 4&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;DHL&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/dhl.png"
+                            alt="DHL"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;DHL&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 4&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="Qatar Airways col-sm-2 footerli">
+
+                        <a href="https://www.qatarairways.com/" target="_blank" title="Qatar Airways"
+                          data-analytics-event="click" data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;Qatar Airways&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 5&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;Qatar Airways&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/qatar.png"
+                            alt="Qatar Airways"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;Qatar Airways&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 5&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="AWS col-sm-2 footerli">
+
+                        <a href="https://aws.amazon.com/f1/" target="_blank" title="AWS" data-analytics-event="click"
+                          data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;AWS&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 6&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;AWS&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/AWS%20GLOBAL.png"
+                            alt="AWS"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;AWS&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 6&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="Crypto.com col-sm-2 footerli">
+
+                        <a href="https://www.crypto.com" target="_blank" title="Crypto.com" data-analytics-event="click"
+                          data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;Crypto.com&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 7&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;Crypto.com&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/crypto.com.png"
+                            alt="Crypto.com"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;Crypto.com&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 7&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+
+
+
+                      <li class="MSC col-sm-2 footerli">
+
+                        <a href="http://www.msccruises.com" target="_blank" title="MSC" data-analytics-event="click"
+                          data-tracking="{
+															&quot;event&quot;:&quot;select_promotion&quot;,
+															&quot;locationInPage&quot;:&quot;footer&quot;,
+															&quot;actionType&quot;: &quot;promoClick&quot;,
+															&quot;ecommerce&quot;: {
+																&quot;items&quot;: [{
+																&quot;promotion_name&quot;: &quot;MSC&quot;,
+																&quot;creative_name&quot;: &quot;Tier 1 | banner 8&quot;,
+																&quot;creative_slot&quot;: &quot;Static Sponsorship&quot;,
+																&quot;item_brand&quot;:&quot;MSC&quot;
+																}]
+															}
+													}">
+
+
+                          <img
+                            src="https://media.formula1.com/image/upload/content/dam/fom-website/2020/sponsors/msc.png"
+                            alt="MSC"
+                            data-promo-view="{&quot;promotion_name&quot;: &quot;MSC&quot;, &quot;creative_name&quot;: &quot;Tier 1 | banner 8&quot;, &quot;creative_slot&quot;: &quot;Static Sponsorship&quot;}">
+
+                        </a>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <script type="text/template" id="footerPartners">
+						<@
+						var globalPartners = globalPartners;
+						var officialPartners = officialPartners;
+						var regionalPartners = regionalPartners;
+						var partnersPageLink = partnersPageLink;
+						@>
+						<@ if(partnersPageLink) { @>
+						<div class="row2">
+								<div class="col-12 f1-center f1-sponsor-header">
+									<span class="logo-container">
+										<img src="/etc/designs/fom-website/images/f1_logo_red.svg" class="js-svg-inject">
+									</span>
+									<span class="f1-bold--s f1-color--white header">
+										<@ if(partnersPageLink.webUrl) { @>
+										<a href="<@= partnersPageLink.webUrl @>" data-analytics-event="click" data-tracking='{
+											"event":"navigation_click",
+											"actionType":"linkclick",
+											"path":"<@= partnersPageLink.title @>",
+											"pathType":"internal",
+											"navigationElement":"Sponsor logo",
+											"locationInPage":"Footer",
+											"componentId": "F1 Partner Link"
+										}'>
+										<@ } @>
+											<span><@= partnersPageLink.title @></span>
+											<i class="icon icon-chevron-right f1-color--white"></i>
+										<@ if(partnersPageLink.webUrl) { @>
+										</a>
+										<@ } @>
+									</span>
+								</div>
+							</div>
+						<@ } @>
+						<div class="row2 footer-partners-container">
+							<@ if(globalPartners.length > 0) { @>
+								<div class="col-12">
+									<ul class="primary-partners global-partners flex-container js-promo-item">
+										<@  _.each(globalPartners, function(globalPartner, index) { @>
+
+											<li class="<@= globalPartner.logoImageAlt @>">
+												<@ if(globalPartner.partnerUrl) { @>
+													<a href="<@= globalPartner.partnerUrl  @>"  target="_blank" title="<@= globalPartner.title @>"
+													   data-analytics-event="click" data-tracking='{
+															"event":"select_promotion",
+															"locationInPage":"footer",
+															"actionType": "promoClick",
+															"ecommerce": {
+																"items": [{
+																"promotion_name": "<@= globalPartner.title @>",
+																"creative_name": "Tier 1 | banner <@= index+1 @>",
+																"creative_slot": "Static Sponsorship",
+																"item_brand":"<@= globalPartner.title @>"
+																}]
+															}
+													}'>
+												<@ } @>
+
+													<img src="<@= globalPartner.logo[0].url @>" alt="<@= globalPartner.logoImageAlt  @>" data-promo-view='{"promotion_name": "<@= globalPartner.title @>", "creative_name": "Tier 1 | banner <@= index+1 @>", "creative_slot": "Static Sponsorship"}'>
+												<@ if(globalPartner.partnerUrl) { @>
+													</a>
+												<@ } @>
+											</li>
+
+											<@ }); @>
+									</ul>
+								</div>
+							<@ } @>
+
+							<@ if(officialPartners.length > 0) { @>
+
+								<div class="col-12">
+									<div class="secondary-partners official-partners flex-container js-promo-item">
+										<@  _.each(officialPartners, function(officialPartner, index) { @>
+											<div class="logo-wrapper <@ officialPartner.logoImageAlt  @>">
+												<img src="<@= officialPartner.logo[0].url  @>" alt="<@= officialPartner.logoImageAlt  @>" data-promo-view='{ "promotion_name": "<@= officialPartner.title @>", "creative_name": "Tier 2 | banner <@= index+1 @>", "creative_slot": "Static Sponsorship"}'>
+											</div>
+										<@ }); @>
+									</div>
+								</div>
+							<@ } @>
+
+							<@ if(regionalPartners.length > 0) { @>
+
+								<div class="col-12">
+									<div class="secondary-partners regional-partners flex-container js-promo-item">
+										<@  _.each(regionalPartners, function(regionalPartner, index) { @>
+											<div class="logo-wrapper <@ regionalPartner.logoImageAlt  @>">
+												<img src="<@= regionalPartner.logo[0].url  @>" alt="<@= regionalPartner.logoImageAlt  @>" data-promo-view='{ "promotion_name": "<@= regionalPartner.title @>", "creative_name": "Tier 3 | banner <@= index+1 @>", "creative_slot": "Static Sponsorship" }'>
+											</div>
+											<@ }); @>
+									</div>
+								</div>
+							<@ } @>
+						</div>
+					</script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+    <footer class="footer">
+
+      <marquee>&copy; 2023 Formula 1</marquee>
+
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+  </script>
+</body>
+
+</html>
